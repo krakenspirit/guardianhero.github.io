@@ -1584,7 +1584,6 @@ Took components from Bulma that I needed.
 
 .hero {
   align-items: stretch;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
