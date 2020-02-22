@@ -1582,6 +1582,10 @@ Took components from Bulma that I needed.
   width: 128px;
 }
 
+.herogap {
+  min-height: 40vh;
+}
+
 .hero {
   align-items: stretch;
   flex-direction: column;
@@ -2389,10 +2393,6 @@ Took components from Bulma that I needed.
 
 .hero.is-fullheight {
   min-height: 100vh;
-}
-
-.herogap {
-  min-height: 10vh;
 }
 
 .hero-video {
