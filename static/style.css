@@ -2391,6 +2391,10 @@ Took components from Bulma that I needed.
   min-height: 100vh;
 }
 
+.herogap {
+  min-height: 10vh;
+}
+
 .hero-video {
   overflow: hidden;
 }
