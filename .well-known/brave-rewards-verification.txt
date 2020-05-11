@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: guardianhero.org
+Token: d8353de244ad6c1acaec4cb81a70bcd9bdd6604263ef702440a2df165a00b0c6
