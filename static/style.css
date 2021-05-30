@@ -17,7 +17,7 @@ Wordpress Themes:
 sass --watch assets/sass/style.scss:style.css
 
 Lektor Static: 
-sass --watch sass/style.scss:style.css
+sass --watch static/sass/style.scss:style.css
 */
 @import url("css/normalize.css");
 @import url("css/xygrid.css");
@@ -26,6 +26,7 @@ sass --watch sass/style.scss:style.css
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
 a, #back {
   text-decoration: none;
 }
@@ -4107,13 +4108,14 @@ Favourite font combos
 	*"Headers"  Playfair display w/Lato or Volkorn body, 0.23 Letter spacing
   *Playfair Header, Vollkorn Body, 0.12em letter spacing
   Playfair Display, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  *Montserrat
 
   New Font Combo:
   Body: Source Sans Pro
 
 */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.12em;
@@ -4138,6 +4140,31 @@ h1, h2, h3, h4 {
   letter-spacing: 0.03em;
   line-height: 90px;
   color: #5F727F;
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  border-left: none;
+}
+blockquote a, blockquote #back {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
 }
 
 /*******************
