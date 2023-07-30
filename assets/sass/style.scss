@@ -1,0 +1,58 @@
+/*
+
+Theme Name: 8-Bit Kraken Spirit
+Theme URI: -pause-
+Author: S.K Murghein
+Author URI: http://pause
+Description: Description
+Version: 1.0.0
+
+Text Domain: 8-bit-kraken
+Tags:
+
+Note: Don't forget to CD to the directory with .css
+
+Jekyll Themes:
+sass --watch assets/sass/style.scss:assets/css/style.css
+
+Wordpress Themes: 
+sass --watch assets/sass/style.scss:style.css
+
+Lektor Static: 
+sass --watch static/sass/style.scss:style.css
+*/
+
+
+//<i class="ra ra-burning-book"></i> - RPGAWESOME
+//<i class="fa fa-file-text-o"></i> - FONTAWESOME
+//fa-3x, ra-3x
+
+//Css Fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+//Css Icons - called from css folder
+@import url("lib/icons/rpg-awesome/css/rpg-awesome.css");
+@import url("lib/icons/fontawesome/css/all.css"); /*active*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
+@import "components/bulma/buttons.scss";
+
+// required for global
+@import "components/materializecss/color-variables.scss"; 
+@import "components/materializecss/variables.scss"; 
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
+
+@import "global/colors";
+@import "global/variables";
+@import "global/media-queries";
+@import "global/utilities";
+
+
+@import url("lib/xygrid.css"); //Css Icons - called from css folder
+@import 'layout/agen'; // XY Grid for the layout and Bootstrap for the styling
+@import "layout/body.scss";
+@import "layout/footer.scss";

@@ -1,70 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159376901-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="static/style.css">
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-159376901-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" CONTENT="noindex,nofollow">
+	<title>
+		Guardian & Hero Nation
+	 </title>
+	
+
+		<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="canonical" href="http://localhost:4000/">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 
 
-<title>Guardian & Hero Nation</title>
 
-<body>
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-<!--Navbar and Header
+	<!-- theme meta -->
+	<meta name="theme-name" content="agen" />
+  
+	<!-- ** Plugins Needed for the Project ** -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<!-- slick slider -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<!-- themefy-icon -->
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<!-- venobox css -->
+	<link rel="stylesheet" href="plugins/venobox/venobox.css">
+	<!-- card slider -->
+	<link rel="stylesheet" href="plugins/card-slider/css/style.css">
+  
+	<!-- Main Stylesheet -->
+	<link href="assets/css/style.css" rel="stylesheet">
+  
+  </head>
+  
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
--->
-<header>
+<body class="/loading /ajax-loading" data-site-url="https://guardianhero.org"
+	data-page-url="/">
+	<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand left hide-on-med-and-down" href="index.html">
+      <!--Desktop "Guardian" Logo-->
+      <img src="assets/images/logo-g.png" width="164" alt="logo">
+    </a>
+
+    <a class="navbar-brand left hide-on-large-only" href="index.html">
+      <!--Mobile "Hero" Logo-->
+      <img src="assets/images/logo-h.png" width="164" alt="logo">
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <!--Manual Menu-->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+        </li>
         
-    <nav id="page-nav" class="/hide">
-        <div class="nav-wrapper">
-            <!--Brand Logo "Jinja2 code" for src relative links-->
-            <div id="BrandLeft">
-                <a href="./" class="brand-logo left hide-on-med-and-down">
-                    <!--Desktop "Guardian" Logo-->
-                    <img src="https://bit.ly/2OBSXgZ" width="164" height="28">
-                </a>
-                <a href="./" class="brand-logo left hide-on-large-only">
-                    <!--Mobile "Hero" Logo-->
-                    <img src="https://bit.ly/3bfBipj" width="164">
-                </a>
-            </div>
-            <!-- [THE HAMBURGER] -->
-
-            <!-- Navigation Right-->
-            <ul id="nav-mobile" class="right">
-                <!--
-                
-                <li>
-                    <a href="blog/">Updates</a>
-                </li>
-                
-                <li>
-                    <a href="projects/">Projects</a>
-                </li>
-                
-                -->
-                <div class="">
-                <li  class="active" ><a href="./" class=""><i
-                            class="fas fa-home"></i> </a></li>
-                
-                <li ><a href="project" class="">Project</a>
-                </li>
-                
-                <li><a href="https://blog.guardianhero.org">Journey</a></li>
-            </div>
-                
-            </ul>
-
-        </div>
-    </nav>
-
+           
+        <!--Automated Menu-->
+        <li class="nav-item"><a href="/project.html"
+            class="nav-link">projects</a></li>
+            
+        <!--Automated Menu-->
+        <li class="nav-item"><a href="/about.html"
+            class="nav-link">about</a></li>
+         
+        <!-- Manual Menu-->
+        <li class="nav-item">
+          <a class="nav-link" href="https://blog.guardianhero.org/">Journey</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
 
 </header>
 
 
-  <!--layout.scss contains hero image for hero-body -->
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container">
+
+
+
+<!-- hero default -->
+<section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
+  data-background="assets/images/city-bg-unsplash.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center hero-body">
         <h1 class="title">
           <br><br>
           Discover<b>Hero<br>Nation</b>
@@ -75,32 +122,87 @@
         </h2>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- /hero -->
+
+	<main class="page">
+		<div class="page-content">
+			  <!-- service -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h2></h2>
+          <p>
+            <center>
+              <img src="assets/images/text-logo-164x164.png" width="164" height="164">
+              <br><br>
+              Alone we can do little, together we can make a difference.
+            </center><br>
+          </p>
+          <p>
+            <center>
+              <a href="/project" class="button is-blue is-outlined">Discover Heroes</a>
+            </center>
+            <br>
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="page" id="body">
-    
-  <h2></h2>
-  <p><center>
- <img src="static/img/text-logo-164x164.png" width="164" height="164">
-<br><br>
-Alone we can do little, together we can make a difference.
-</center><br></p>
-<p><center>
-<a href="/project" class="button is-blue is-outlined">Discover Heroes</a>
-</center>
-<br></p>
 
 
-  </div>
 
-  
-<!-- Footer Here -->
+		</div>
+
+		<footer class="bg-secondary position-relative">
+   
+</footer>
+
+<!-- Footer -->
 <footer class="page-footer">
     <div class="footer-copyright">
         <div class="container center-align">
-            &copy; All rights eaten by the 8-bit Kraken Spirit.
+            <span>© All rights eaten by the 8-bit Kraken Spirit.</span>
         </div>
     </div>
 </footer>
+<!-- /Footer -->
 
+
+<!--Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+ <!-- jQuery -->
+ <script src="plugins/jQuery/jquery.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="plugins/bootstrap/bootstrap.min.js"></script>
+ <!-- slick slider -->
+ <script src="plugins/slick/slick.min.js"></script>
+ <!-- venobox -->
+ <script src="plugins/venobox/venobox.min.js"></script>
+ <!-- shuffle -->
+ <script src="plugins/shuffle/shuffle.min.js"></script>
+ <!-- apear js -->
+ <script src="plugins/counto/apear.js"></script>
+ <!-- counter -->
+ <script src="plugins/counto/counTo.js"></script>
+ <!-- card slider -->
+ <script src="plugins/card-slider/js/card-slider-min.js"></script>
+ <!-- google map -->
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places">
+ </script>
+ <script src="plugins/google-map/gmap.js"></script>
+
+ <!-- Main Script -->
+ <script src="assets/js/script.js"></script>
+ <script src="assets/js/journal.js"></script>
+
+	</main>
 </body>
+
+</html>

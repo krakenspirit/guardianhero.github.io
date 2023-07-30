@@ -1,0 +1,119 @@
+/*******************
+  Styling
+*******************/
+
+/*
+Favourite font combos 
+	*"Headers"  Playfair display w/Lato or Volkorn body, 0.23 Letter spacing
+  *Playfair Header, Vollkorn Body, 0.12em letter spacing
+  Playfair Display, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  *Montserrat
+  
+  New Font Combo:
+  Body: Source Sans Pro
+
+*/
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+		line-height: 25px;
+    letter-spacing: 0.12em;
+    color: $primary-font;
+		overflow-x:hidden;
+		/*place body colour here if you want*/
+}
+
+
+p{
+  line-height:25px;
+  letter-spacing: 0.12em;
+}
+
+h3 {
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 90px;
+    color: $primary-font;
+    font-weight: 400;
+}
+
+h5, h6 {
+  text-align: center;
+  font-family: 'Lexand', sans-serif;
+  font-size: 1.64rem;
+  line-height: 27px;
+  margin: 1.0933333333rem 0 0.656rem 0;
+  color: $primary-font;
+  font-weight: 400;
+}
+
+.textpadding {
+  padding: 1em;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    border-left: none;
+    a {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+}
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+
+
+.page-content {
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+/*******************
+  Hero Headers
+*******************/
+
+.hero-body{
+    h1, h2, h3, h4{
+      color: $hero-font;
+      font-weight: 200;
+      font-size: 80px;
+      text-transform: uppercase;
+    }
+  
+  
+  
+    h2.subtitle{
+      font-size: 16px;
+      text-transform: none;
+      font-weight: normal;
+    }
+  
+    b{
+      font-weight: 700;
+    }
+    
+  }
+

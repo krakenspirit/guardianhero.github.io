@@ -1,0 +1,40 @@
+.hero-body {
+    background-image:url("img/city-bg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page {
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.fullpage{
+    //no padding
+}
+
+.textpadding{
+    padding: 1em;
+}
+/*
+Experimental
+*/
+
+.gallery {
+    background-image:url("img/aaron-greenwood-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 550px;
+}

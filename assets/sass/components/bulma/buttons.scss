@@ -1,0 +1,58 @@
+
+//Updated Bulma...
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+    margin-right: .5rem;
+}
+
+
+.button.is-blue.is-outlined {
+    background-color: transparent;
+    border-color: #3273dc;
+    color: #3273dc;
+}
+
+.buttons .button {
+    margin-bottom: .5rem;
+}
+
+.button.is-blue {
+    background-color: #3273dc;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+
+//Adds the outline...removes the rounded?
+.button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: calc(.75em - 1px);
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+    position: relative;
+    vertical-align: top;
+}
